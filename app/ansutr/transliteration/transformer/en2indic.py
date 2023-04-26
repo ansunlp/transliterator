@@ -8,8 +8,8 @@ from .base_engine import BaseEngineTransformer, LANG_LIST_FILE
 
 F_DIR = os.path.dirname(os.path.realpath(__file__))
 
-MODEL_DOWNLOAD_URL = 'https://github.com/AI4Bharat/IndicXlit/releases/download/v1.0/indicxlit-en-indic-v1.0.zip'
-DICTS_DOWNLOAD_URL = 'https://github.com/AI4Bharat/IndicXlit/releases/download/v1.0/word_prob_dicts.zip'
+MODEL_DOWNLOAD_URL = 'https://github.com/ansunlp/transliterator/releases/download/v1.0/indicxlit-en-indic-v1.0.zip'
+DICTS_DOWNLOAD_URL = 'https://github.com/ansunlp/transliterator/releases/download/v1.0/word_prob_dicts.zip'
 XLIT_VERSION = "v1.0" # If model/dict is changed on the storage, do not forget to change this variable in-order to force-download new assets
 
 def is_folder_writable(folder):
