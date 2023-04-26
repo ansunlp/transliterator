@@ -15,7 +15,7 @@ LANG_WORD_REGEXES = {
 }
 
 MODEL_FILE = 'transformer/indicxlit.pt'
-DICTS_FOLDER = 'https://github.com/ansunlp/transliterator/tree/main/ablation_study/model/preprocessing_for_rescoring/word_prob_dicts'
+DICTS_FOLDER = 'word_prob_dicts'
 CHARS_FOLDER = 'corpus-bin'
 DICT_FILE_FORMAT = '%s_word_prob_dict.json'
 LANG_LIST_FILE = '../lang_list.txt'
