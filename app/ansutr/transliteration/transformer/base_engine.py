@@ -18,7 +18,7 @@ MODEL_FILE = 'transformer/indicxlit.pt'
 DICTS_FOLDER = 'word_prob_dicts'
 CHARS_FOLDER = 'corpus-bin'
 DICT_FILE_FORMAT = '%s_word_prob_dict.json'
-LANG_LIST_FILE = 'https://github.com/ansunlp/transliterator/blob/main/app/ansutr/transliteration/transformer/models/en2indic/lang_list.txt'
+LANG_LIST_FILE = '../lang_list.txt'
 
 normalizer_factory = IndicNormalizerFactory()
 
